@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça todos os produtos da Padaria Doce Forno - Pães artesanais, doces, bolos e muito mais.">
+    <title>Produtos | Padaria Doce Forno</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥖</text></svg>">
+</head>
+<body>
+
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🥖</span>
+                <span class="logo-text">Doce<span>Forno</span></span>
+            </a>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="contato.html" class="nav-cta">Encomendar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <div class="hero-badge">Nosso Cardápio</div>
+            <h1>Nossos Produtos</h1>
+            <p>Descubra nossa variedade de pães artesanais, doces, bolos e salgados preparados com ingredientes selecionados.</p>
+            <div class="breadcrumb">
+                <a href="../index.html">Início</a>
+                <span>/</span>
+                <span>Produtos</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="section products-section">
+        <div class="section-header reveal">
+            <div class="section-label">Cardápio Completo</div>
+            <h2 class="section-title">Tudo que Você Precisa</h2>
+            <p class="section-desc">Filtrar por categoria:</p>
+
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="paes">Pães</button>
+                <button class="filter-btn" data-filter="doces">Doces</button>
+                <button class="filter-btn" data-filter="bolos">Bolos</button>
+                <button class="filter-btn" data-filter="salgados">Salgados</button>
+                <button class="filter-btn" data-filter="tortas">Tortas</button>
+            </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- PÃES -->
+            <article class="product-card reveal" data-category="paes">
+                <div class="card-image">
+                    <span class="card-badge">Mais Vendido</span>
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80" alt="Pão Artesanal Integral">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Pães</div>
+                    <h3>Pão Artesanal Integral</h3>
+                    <p>Feito com farinha integral orgânica, sementes e fermentação natural de 24h. Crocante por fora, macio por dentro.</p>
+                    <div class="card-price">R$ 18,90 <span>R$ 22,90</span></div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="paes">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/f7/bf/2e/f7bf2e86985dc051af38bdd016897e4c.jpg" alt="Pão de Fermentação Natural">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Pães</div>
+                    <h3>Pão de Fermentação Natural</h3>
+                    <p>Levain caseiro de 5 anos, farinha especial e fermentação lenta de 48 horas. Sabor único e inigualável.</p>
+                    <div class="card-price">R$ 24,90</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="paes">
+                <div class="card-image">
+                    <span class="card-badge">Novo</span>
+                    <img src="https://i1-e.pinimg.com/1200x/64/c3/05/64c305bd0867cdeedcab9ba5c382468c.jpg" alt="Pão de Azeite e Ervas">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Pães</div>
+                    <h3>Pão de Azeite e Ervas</h3>
+                    <p>Azeite extravirgem, alecrim, tomilho e orégano fresco. Perfeito para acompanhar massas e azeites.</p>
+                    <div class="card-price">R$ 21,50</div>
+                </div>
+            </article>
+
+            <!-- DOCES -->
+            <article class="product-card reveal" data-category="doces">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/7c/5e/3e/7c5e3ef05cb90db971086c66798c1594.jpg" alt="Croissant Francês">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Doces</div>
+                    <h3>Croissant Francês</h3>
+                    <p>Croissant folhado com manteiga francesa, crocante por fora e macio por dentro. Feito diariamente.</p>
+                    <div class="card-price">R$ 12,50</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="doces">
+                <div class="card-image">
+                    <span class="card-badge">Promoção</span>
+                    <img src="https://i1-e.pinimg.com/736x/ad/59/3c/ad593c71e7fabc741f33b701f2878347.jpg" alt="Kit Cupcakes">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Doces</div>
+                    <h3>Kit Cupcakes (6 unid.)</h3>
+                    <p>6 cupcakes variados: chocolate, baunilha, red velvet e limão siciliano com coberturas especiais.</p>
+                    <div class="card-price">R$ 39,90 <span>R$ 49,90</span></div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="doces">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/736x/2d/7d/20/2d7d2056c11fcff9937eb43019bab1e6.jpg" alt="Brigadeiro Gourmet">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Doces</div>
+                    <h3>Brigadeiro Gourmet (12 unid.)</h3>
+                    <p>Brigadeiros de chocolate belga com granulados especiais. Sabores: tradicional, pistache, nozes e café.</p>
+                    <div class="card-price">R$ 35,00</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="doces">
+                <div class="card-image">
+                    <span class="card-badge">Especial</span>
+                    <img src="https://i1-e.pinimg.com/1200x/a4/2e/b5/a42eb5cdc58544780b93a72f8b217684.jpg" alt="Macarons Franceses">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Doces</div>
+                    <h3>Macarons Franceses (8 unid.)</h3>
+                    <p>Macarons autênticos franceses em sabores: pistache, framboesa, chocolate, limão, baunilha e café.</p>
+                    <div class="card-price">R$ 48,00</div>
+                </div>
+            </article>
+
+            <!-- BOLOS -->
+            <article class="product-card reveal" data-category="bolos">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Bolo de Chocolate Belga">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Bolos</div>
+                    <h3>Bolo de Chocolate Belga</h3>
+                    <p>Camadas de bolo de chocolate com ganache belga e cobertura de trufas artesanais.</p>
+                    <div class="card-price">R$ 89,90</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="bolos">
+                <div class="card-image">
+                    <span class="card-badge">Mais Vendido</span>
+                    <img src="https://i1-e.pinimg.com/1200x/3e/95/de/3e95deef139a504cc7a8107caf9f16b3.jpg" alt="Bolo Red Velvet">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Bolos</div>
+                    <h3>Bolo Red Velvet</h3>
+                    <p>Bolo vermelho com cream cheese frosting e decoração com pétalas de rosa comestíveis.</p>
+                    <div class="card-price">R$ 95,00</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="bolos">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/b2/87/cf/b287cfde57defb7dd4203efc5d30c486.jpg" alt="Bolo de Limão Siciliano">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Bolos</div>
+                    <h3>Bolo de Limão Siciliano</h3>
+                    <p>Massa leve de limão com calda de limão siciliano e cobertura de merengue suíço.</p>
+                    <div class="card-price">R$ 79,90</div>
+                </div>
+            </article>
+
+            <!-- SALGADOS -->
+            <article class="product-card reveal" data-category="salgados">
+                <div class="card-image">
+                    <span class="card-badge">Especial</span>
+                    <img src="https://i1-e.pinimg.com/736x/e5/cd/6b/e5cd6b0e847b606a583a3f4615644bc3.jpg" alt="Pão de Queijo Mineiro">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Salgados</div>
+                    <h3>Pão de Queijo Mineiro</h3>
+                    <p>Receita tradicional mineira com queijo parmesão e polvilho doce selecionado. Crocante por fora.</p>
+                    <div class="card-price">R$ 6,90</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="salgados">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/33/ae/60/33ae6088e58dfcb81e850c0a1ce8889c.jpg" alt="Esfiha de Carne">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Salgados</div>
+                    <h3>Esfiha de Carne (6 unid.)</h3>
+                    <p>Massa fina e crocante com recheio de carne temperada, cebola e especiarias árabes.</p>
+                    <div class="card-price">R$ 32,00</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="salgados">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/d8/3d/b4/d83db45ff8761e725eea9ee93226df6a.jpg" alt="Quiche Lorraine">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Salgados</div>
+                    <h3>Quiche Lorraine</h3>
+                    <p>Massa folhada com recheio de bacon, queijo gruyère, creme de leite fresco e ovos.</p>
+                    <div class="card-price">R$ 45,00</div>
+                </div>
+            </article>
+
+            <!-- TORTAS -->
+            <article class="product-card reveal" data-category="tortas">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/c1/b3/99/c1b39919e59a59da2162202852a74b54.jpg" alt="Torta de Maçã">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Tortas</div>
+                    <h3>Torta de Maçã Caramelizada</h3>
+                    <p>Massa folhada com recheio de maçãs frescas caramelizadas, canela e nozes pecã.</p>
+                    <div class="card-price">R$ 45,90</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="tortas">
+                <div class="card-image">
+                    <span class="card-badge">Novo</span>
+                    <img src="https://i1-e.pinimg.com/1200x/12/b6/23/12b6231c72dc2024952a0f1648fcbcba.jpg" alt="Torta de Morango">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Tortas</div>
+                    <h3>Torta de Morango</h3>
+                    <p>Massa amanteigada com creme de confeiteiro e morangos frescos selecionados.</p>
+                    <div class="card-price">R$ 52,00</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal" data-category="tortas">
+                <div class="card-image">
+                    <img src="https://i1-e.pinimg.com/1200x/09/5f/90/095f90cff1aa667b8a5b57c1e3d6eac8.jpg" alt="Torta de Limão">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Tortas</div>
+                    <h3>Torta de Limão Merengue</h3>
+                    <p>Massa crocante com recheio de limão siciliano e cobertura de merengue dourado.</p>
+                    <div class="card-price">R$ 48,00</div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--dark) 0%, var(--primary-dark) 100%); text-align: center;">
+        <div class="reveal">
+            <div class="hero-badge" style="margin-bottom: 1.5rem;">Não encontrou o que procura?</div>
+            <h2 style="font-family: var(--font-title); font-size: clamp(1.8rem, 4vw, 3rem); color: var(--white); margin-bottom: 1rem;">
+                Faça sua Encomenda Personalizada
+            </h2>
+            <p style="color: var(--accent-light); max-width: 600px; margin: 0 auto 2rem; font-size: 1.1rem;">
+                Aceitamos encomendas personalizadas para eventos, festas e ocasiões especiais. Entre em contato e conte-nos o que deseja!
+            </p>
+            <a href="contato.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 18px 40px;">
+                Fazer Encomenda →
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Doce<span>Forno</span></span>
+                <p>Desde 1985 levando o sabor da tradição artesanal para sua mesa. Pães, doces e bolos feitos com amor e dedicação.</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="Instagram">📷</a>
+                    <a href="#" title="WhatsApp">💬</a>
+                    <a href="#" title="YouTube">▶️</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Produtos</h4>
+                <ul>
+                    <li><a href="produtos.html">Pães Artesanais</a></li>
+                    <li><a href="produtos.html">Doces & Bolos</a></li>
+                    <li><a href="produtos.html">Salgados</a></li>
+                    <li><a href="produtos.html">Café da Manhã</a></li>
+                    <li><a href="produtos.html">Bolos Personalizados</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Receba novidades, promoções e receitas exclusivas.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="seu@email.com" required>
+                    <button type="submit">→</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Padaria Doce Forno. Todos os direitos reservados. | Desenvolvido por Mirella Maria</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Mobile
+        const menuToggle = document.getElementById('menuToggle');
+        const mainNav = document.getElementById('mainNav');
+        const overlay = document.getElementById('overlay');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
+        });
+
+        overlay.addEventListener('click', () => {
+            mainNav.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Header scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll Reveal
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // Filtro de Produtos
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const productCards = document.querySelectorAll('.product-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                productCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 50);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Padaria Doce Forno - Pães artesanais, doces e bolos feitos com amor e tradição desde 1985.">
+    <title>Padaria Doce Forno | Pães Artesanais & Doces</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥖</text></svg>">
+</head>
+<body>
+
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🥖</span>
+                <span class="logo-text">Doce<span>Forno</span></span>
+            </a>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                    <li><a href="contato.html" class="nav-cta">Encomendar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <!-- ===== HERO / BANNER ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-badge">✨ Tradição desde 1985</div>
+            <h1>O Sabor da
+                <span>Tradição Artesanal</span>
+            </h1>
+            <p>Pães frescos, doces irresistíveis e bolos personalizados feitos com ingredientes selecionados e muito amor. Venha viver uma experiência gastronômica única.</p>
+            <div class="hero-buttons">
+                <a href="produtos.html" class="btn btn-primary">
+                    🛒 Ver Produtos
+                </a>
+                <a href="contato.html" class="btn btn-secondary">
+                    📞 Fazer Encomenda
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE NÓS ===== -->
+    <section class="section about-section" id="sobre">
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <img src="https://i.pinimg.com/736x/10/1d/f5/101df52505b3ea115b7d37b920b6ad31.jpg" alt="Padeiro preparando massa artesanal">
+            </div>
+            <div class="about-content reveal">
+                <div class="section-label">Nossa História</div>
+                <h3>Tradição que se Renova a Cada Dia</h3>
+                <p>Desde 1985, a Padaria Doce Forno leva até você o verdadeiro sabor dos pães artesanais. Nossa receita secreta passa de geração em geração, combinando técnicas tradicionais com inovação.</p>
+                <p>Utilizamos apenas ingredientes de alta qualidade, farinhas especiais e fermentação natural para garantir produtos únicos, saborosos e saudáveis.</p>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">38+</div>
+                        <div class="stat-label">Anos de Tradição</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Tipos de Pães</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10k+</div>
+                        <div class="stat-label">Clientes Felizes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUTOS DESTAQUE ===== -->
+    <section class="section products-section" id="produtos">
+        <div class="section-header reveal">
+            <div class="section-label">Nossos Produtos</div>
+            <h2 class="section-title">Delícias Feitas com Amor</h2>
+            <p class="section-desc">Conheça nossa seleção especial de produtos artesanais, preparados diariamente com os melhores ingredientes.</p>
+        </div>
+
+        <div class="products-grid">
+            <article class="product-card reveal">
+                <div class="card-image">
+                    <span class="card-badge">Mais Vendido</span>
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80" alt="Pão Artesanal Integral">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Pães</div>
+                    <h3>Pão Artesanal Integral</h3>
+                    <p>Feito com farinha integral orgânica, sementes e fermentação natural de 24h.</p>
+                    <div class="card-price">R$ 18,90 <span>R$ 22,90</span></div>
+                </div>
+            </article>
+
+            <article class="product-card reveal">
+                <div class="card-image">
+                    <span class="card-badge">Novo</span>
+                    <img src="https://i1-e.pinimg.com/1200x/7c/5e/3e/7c5e3ef05cb90db971086c66798c1594.jpg" alt="Croissant Francês">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Doces</div>
+                    <h3>Croissant Francês</h3>
+                    <p>Croissant folhado com manteiga francesa, crocante por fora e macio por dentro.</p>
+                    <div class="card-price">R$ 12,50</div>
+                </div>
+            </article>
+
+            <article class="product-card reveal">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Bolo de Chocolate Belga">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Bolos</div>
+                    <h3>Bolo de Chocolate Belga</h3>
+                    <p>Camadas de bolo de chocolate com ganache belga e cobertura de trufas.</p>
+                    <div class="card-price">R$ 89,90 <span>R$ 109,90</span></div>
+                </div>
+            </article>
+
+            <article class="product-card reveal">
+                <div class="card-image">
+                    <span class="card-badge">Especial</span>
+                    <img src="https://i1-e.pinimg.com/736x/e5/cd/6b/e5cd6b0e847b606a583a3f4615644bc3.jpg" alt="Pão de Queijo Mineiro">
+                </div>
+                <div class="card-content">
+                    <div class="card-category">Salgados</div>
+                    <h3>Pão de Queijo Mineiro</h3>
+                    <p>Receita tradicional mineira com queijo parmesão e polvilho doce selecionado.</p>
+                    <div class="card-price">R$ 6,90</div>
+                </div>
+            </article>
+
+           
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="produtos.html" class="btn btn-primary">Ver Todos os Produtos →</a>
+        </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section services-section" id="servicos">
+        <div class="section-header reveal">
+            <div class="section-label">Nossos Serviços</div>
+            <h2 class="section-title">O Que Oferecemos</h2>
+            <p class="section-desc">Além dos melhores produtos de padaria, oferecemos serviços especiais para tornar seus momentos ainda mais especiais.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-icon">🎂</div>
+                <h3>Bolos Personalizados</h3>
+                <p>Bolos sob encomenda para aniversários, casamentos e eventos especiais com design exclusivo.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-icon">🥐</div>
+                <h3>Café da Manhã</h3>
+                <p>Cestas de café da manhã completas com pães, doces, sucos e itens especiais para presentear.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-icon">🍞</div>
+                <h3>Fornecimento</h3>
+                <p>Fornecemos pães e doces para restaurantes, cafeterias e eventos corporativos.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-icon">👨‍🍳</div>
+                <h3>Workshops</h3>
+                <p>Aulas de panificação e confeitaria com nossos mestres padeiros para grupos e empresas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section testimonials-section" id="depoimentos">
+        <div class="section-header reveal">
+            <div class="section-label">Depoimentos</div>
+            <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+            <p class="section-desc">A opinião de quem já experimentou nossas delícias é o nosso maior orgulho.</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"O melhor pão artesanal que já comi! A fermentação natural faz toda a diferença. Sou cliente há 5 anos e nunca me decepcionei."</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80" alt="Maria Silva">
+                    <div class="testimonial-author-info">
+                        <h4>Maria Silva</h4>
+                        <span>Cliente desde 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Encomendei o bolo de casamento e ficou simplesmente perfeito! Além do sabor incrível, a decoração superou todas as expectativas."</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80" alt="Carlos Mendes">
+                    <div class="testimonial-author-info">
+                        <h4>Carlos Mendes</h4>
+                        <span>Noivo Feliz</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"A cesta de café da manhã que enviei para minha mãe foi um sucesso! Ela amou cada detalhe. Entrega pontual e embalagem linda."</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80" alt="Ana Paula Rocha">
+                    <div class="testimonial-author-info">
+                        <h4>Ana Paula Rocha</h4>
+                        <span>Cliente desde 2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- ===== CONTATO ===== -->
+    <section class="section contact-section" id="contato">
+        <div class="section-header reveal">
+            <div class="section-label">Entre em Contato</div>
+            <h2 class="section-title">Visite-nos ou Faça sua Encomenda</h2>
+            <p class="section-desc">Estamos ansiosos para atendê-lo. Entre em contato para encomendas, dúvidas ou apenas para dizer olá!</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <h3>Informações de Contato</h3>
+                <p>Estamos localizados no coração da cidade, prontos para recebê-lo com o aroma dos pães frescos.</p>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📍</div>
+                    <div class="contact-item-info">
+                        <h4>Endereço</h4>
+                        <p>Av Central, 123 - Centro<br>,Candangolandia DF - 01000-000</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📞</div>
+                    <div class="contact-item-info">
+                        <h4>Telefone</h4>
+                        <p>(11) 3456-7890<br>(11) 98765-4321 (WhatsApp)</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">✉️</div>
+                    <div class="contact-item-info">
+                        <h4>E-mail</h4>
+                        <p>contato@doceforno.com.br<br>encomendas@doceforno.com.br</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">🕐</div>
+                    <div class="contact-item-info">
+                        <h4>Horário de Funcionamento</h4>
+                        <p>Seg-Sex: 6h às 20h<br>Sáb-Dom: 7h às 18h</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form reveal">
+                <h3>Envie uma Mensagem</h3>
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                        </div>
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione...</option>
+                                <option value="encomenda">Encomenda</option>
+                                <option value="duvida">Dúvida</option>
+                                <option value="fornecimento">Fornecimento</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Descreva sua encomenda ou dúvida..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                        📨 Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Doce<span>Forno</span></span>
+                <p>Desde 1985 levando o sabor da tradição artesanal para sua mesa. Pães, doces e bolos feitos com amor e dedicação.</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="Instagram">📷</a>
+                    <a href="#" title="WhatsApp">💬</a>
+                    <a href="#" title="YouTube">▶️</a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="pages/produtos.html">Produtos</a></li>
+                    <li><a href="pages/sobre.html">Sobre Nós</a></li>
+                    <li><a href="pages/servicos.html">Serviços</a></li>
+                    <li><a href="pages/contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Produtos</h4>
+                <ul>
+                    <li><a href="pages/produtos.html">Pães Artesanais</a></li>
+                    <li><a href="pages/produtos.html">Doces & Bolos</a></li>
+                    <li><a href="pages/produtos.html">Salgados</a></li>
+                    <li><a href="pages/produtos.html">Café da Manhã</a></li>
+                    <li><a href="pages/produtos.html">Bolos Personalizados</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Receba novidades, promoções e receitas exclusivas diretamente no seu e-mail.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="seu@email.com" required>
+                    <button type="submit">→</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 Padaria Doce Forno. Todos os direitos reservados. | Desenvolvido por Mirella Maria</p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script>
+        // Menu Mobile
+        const menuToggle = document.getElementById('menuToggle');
+        const mainNav = document.getElementById('mainNav');
+        const overlay = document.getElementById('overlay');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
+        });
+
+        overlay.addEventListener('click', () => {
+            mainNav.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Fechar menu ao clicar em link
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll Reveal Animation
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
